@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validación de Formulario</title>
+  <link rel="stylesheet" href="Formregistro.css">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="Izquierda">
+      <img src="img/registro.png" alt="" class="imagen">
+    </div>
+    <div class="Derecha">
+      <h1 id="titulo">Formulario de Registro</h1>
+      <form id="registro">
+        <div class="formulario">
+          <label for="nombre">Nombre:</label><br>
+          <input type="text" id="nombre" name="nombre">
+          <div id="nomError" class="error"></div>
+        </div>
+        <div class="formulario">
+          <label for="correo">Correo Electrónico:</label><br>
+          <input type="email" id="correo" name="correo">
+          <div id="correoError" class="error"></div>
+        </div>
+        <div class="formulario">
+          <label for="contraseña">Contraseña:</label><br>
+          <input type="password" id="contraseña" name="contraseña">
+          <div id="contraseñaError" class="error"></div>
+        </div>
+        <button type="button" id="boton" class="submit-button">Registrar</button>
+        <div id="mensaje" class="botones"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="Formregistro.js"></script>
+</body>
+</html>

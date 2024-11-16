@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Búsqueda en Tabla</title>
+  <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+  <h1>Diccionario: Búsqueda en Tabla</h1>
+  <form id="formularioBusqueda">
+    <input type="text" id="campoBusqueda" placeholder="Escribe un término..." required>
+    <button type="submit">Buscar</button>
+  </form>
+
+  <div id="contenedorResultados">
+    Resultados encontrados: <span id="totalResultados">0</span>
+  </div>
+
+  <table id="tablaDiccionario">
+    <thead>
+      <tr>
+        <th>Palabra</th>
+        <th>Significado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Elefante</td>
+        <td>Mamífero terrestre más grande del mundo.</td>
+      </tr>
+      <tr>
+        <td>Gato</td>
+        <td>Pequeño mamífero doméstico, ágil y juguetón.</td>
+      </tr>
+      <tr>
+        <td>Teléfono</td>
+        <td>Dispositivo utilizado para realizar llamadas de voz.</td>
+      </tr>
+      <tr>
+        <td>Lámpara</td>
+        <td>Objeto que emite luz artificial.</td>
+      </tr>
+      <tr>
+        <td>Silla</td>
+        <td>Mueble usado para sentarse.</td>
+      </tr>
+      <tr>
+        <td>Águila</td>
+        <td>Ave rapaz de gran tamaño y poderosa visión.</td>
+      </tr>
+      <tr>
+        <td>Perro</td>
+        <td>Mamífero doméstico, conocido como el mejor amigo del hombre.</td>
+      </tr>
+      <tr>
+        <td>Reloj</td>
+        <td>Dispositivo usado para medir el tiempo.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="tabla.js"></script>
+</body>
+</html>
